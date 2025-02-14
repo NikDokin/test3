@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = Test_image3
-        CONTAINER_NAME = Test_container3
+        DOCKER_IMAGE = 'Test_image3'
+        CONTAINER_NAME = 'Test_container3'
         REPO_URL = 'https://github.com/NikDokin/test3.git'
     }
 
